@@ -1,0 +1,141 @@
+@charset "UTF-8";
+[class*="col-"] , .prin{
+    float: left;
+    border: 1px re sold;
+}
+
+* {
+    box-sizing: border-box;
+	}
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 30%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width : 600px) {
+	header{
+		text-align: center;
+		font-size: 0.7em;
+		background-color: lightgray;
+		margin: 0;
+		padding: 0;
+	}
+	header h1{
+		margin: 0;
+		padding: 0;
+	}
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	.col-2:first-child,  .col-4, hr{
+		display: none;
+	}
+	.col-2{
+		font-size: 0.7em;
+		display: inline-flex;
+	}
+
+	.col-12{
+		width: 100%;
+		padding-left: 1%;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	h2{
+		font-size: 1em;
+		text-align: center;
+		width: 100%;
+	}
+
+	div.prin{
+		width: 48%;
+		border-width: 0px;
+		padding: 1%;
+		margin: 0.5%;
+	}
+
+	#footere{
+		width: 100%;
+		display: inline-flex;
+	}
+
+	#footere{
+		text-align: center;
+		color: black;
+		font-size: 3em;
+		background-color: gray;
+	}
+	body{
+		margin-left: 0;
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	ul{
+		list-style: none;
+		padding: 0;
+		padding-left: 2%;
+		margin: 0;
+
+	}
+
+	li:first-child::before{
+		content: "Reparto ";
+		color:#ce105c;
+	}
+
+	li{
+		float:left;
+		text-decoration:none;
+		overflow: hidden;
+	}
+
+	li::after{
+		content: ", ";
+		white-space: pre;
+	}
+
+	h3{
+		display: none;
+	}
+
+
+}
+
+@media only screen and (max-width : 448px) {
+	h2{
+		font-size: 0.7em;
+	}
+
+}
+
+@media only screen and (max-width : 320px) {
+	header{
+		text-align: center;
+		font-size: 0.4em;
+		background: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.col-3{
+		display: none;
+	}
+
+}	
