@@ -1,0 +1,194 @@
+@charset "UTF-8";
+header > h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Box Model*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+div.col-12{
+	border: 1pt solid #cbccc1;
+	margin:1%;
+}
+
+[class*="col-"], .habi {
+    float: left;
+    border: 1px re sold;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h2.col-2{
+	text-align: center;
+}
+
+@media only screen and (max-width : 400px) {
+
+	header > h1 {
+	font-size: 1em;
+		text-align: center;
+	}
+
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	header {
+    	margin-left: 0%;
+	}
+
+	header h1 {
+		background-color: black;
+	}
+
+	section {
+		margin-left: 1%;
+	}
+
+	div.col-12{
+	border: 1.5pt solid #cbccc1;
+	margin:1%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	}
+
+	div#div2>h2{
+		display:none;
+	}
+
+	div#div3 hr{
+		display:none;
+	}
+
+	div.col-11{
+		width: 50%;
+	}
+
+	div#div3 h3{
+		text-align: center;
+	}
+
+	.col-3, .col-9{
+		width: 50%;
+		margin: 0%;
+		padding: 0%;
+	}
+
+	#espol, #espol1{
+		width: 100%;
+	}
+
+	.edu{
+		font-size: 0.9em;
+	}
+
+	div.habi{
+	margin-right: 4%;
+	font-size:1.1em;
+	width: 40%;
+	padding-bottom: 0%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color:  lightgray;
+	box-shadow: 3px 3px 3px;
+	}
+
+	.col-8{
+		width: 60%;
+	}
+
+	div.col-12{
+		background-color: #d4e3fc;
+
+	}
+
+	div#div1 .col-3{
+		margin-left: 25%;
+	}
+
+
+	div#div1 {
+		margin-top: 12%;
+	}
+
+	div#car{
+		width: 100%;
+	}
+
+	div#foto{
+		position: absolute;
+		top:10%;
+		width: 35%;
+		left: 10%;
+		border:solid;
+		height: 20%;
+		border-width: 1pt;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+		background-color:white;
+
+	}
+
+	div#foto img{
+		width: 100%;
+		height: 100%;
+		border-radius: 75%;
+	}
+
+	div#div1 h2{
+		position: absolute;
+		font-size: 0.5em;
+		background-color: white;
+		text-transform: uppercase;
+		text-align: center;
+		width: 25%;
+		left: 40%;
+		z-index: 4;
+		top: 21%;
+		border:solid;
+		border-width: 1pt;
+		
+	}
+
+	.edu li::after{
+		content:",";
+	}
+
+	.edu li>a{
+		display:none;
+	}
+
+	.es{
+		display: none;
+	}
+
+	div#car{
+		margin-top: 20%;
+		text-align: center;
+		font-size: 1.2em;
+	}
+}

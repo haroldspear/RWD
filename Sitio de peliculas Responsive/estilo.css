@@ -1,0 +1,79 @@
+header>h1{
+	font-family: "Anton";
+	color: #414239;
+	font-size: 4em;
+}
+
+div.div1{
+	display: inline-flex;
+
+	width: 1560px;
+	height: 45px;
+	padding-left: 13px;
+	padding-bottom: 15px;
+
+	font-family: Verdana;
+
+}
+
+div.img>img{
+	width: 150px;
+	height: 200px;
+}
+
+div.sin{
+	width: 750px;
+	height: 120px;
+	padding-left: 15px;
+	text-align: justify;
+}
+
+div.rep{
+	padding-left: 15px;
+}
+
+div.rep>h3{
+	text-align: center;
+}
+
+div.vid{
+	padding-left: 110px;
+}
+
+h2{
+	font-family: "Lobster";
+	color:#9e0947;
+	font-size: 2.5em;
+}
+div.vid>video{
+
+	width: 345px; 
+	height: 200px;
+}
+
+div.prin{
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #d7d8cb;
+}
+
+h3{
+	color:#ce105c;
+	font-size: 1em;
+}
+
+li[famoso="principal"]{
+	font-weight: bold;
+}
+
+li[famoso="secundario"]{
+	font-style: italic;
+}
+
+ul{
+	list-style-image: url(https://goo.gl/6hPSSH);
+}
+
+div.img>img:hover{
+	opacity: 0.8;
+}

@@ -1,0 +1,153 @@
+html:after {
+    content : "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("comida.jpg"); 
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 160%;
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+
+h1#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
+}
+
+body{
+	height:100%
+	width:100%;
+}
+
+
+header ~ div{
+	display:inline-flex;
+}
+
+
+p#a ~ div {
+  	position: relative;
+  	z-index: 5;
+  	width: 278px;
+  	color: #000;
+ 	padding-left: 15px;
+  	margin: 10px;
+	border: solid;
+	border-width: 1px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+p#a ~ div::before {
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#pollo::before{
+    background: url("pollo.jpg");
+}
+
+#enchi::before{
+    background: url("enchilada.jpg");
+}
+
+#punta::before{
+    background: url("puntas.jpg");
+}
+
+#lasa::before{
+    background: url("lasa.jpg");
+}
+
+#beren::before{
+    background: url("beren.jpg");
+}
+
+#pollo::before, #enchi::before, #punta::before, #lasa::before, #beren::before{
+	background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+}
+
+p#a ~ div>img{
+	width: 80%;
+	height: 50%;
+	padding-left: 7%;
+}
+
+p#a ~ div>img:hover{
+	opacity: 0.7;
+}
+
+a.len {
+	font-variant: small-caps;
+	color: #db990a;
+	text-decoration: underline;
+}
+
+h3.cat{
+	color: #d69f2a;
+}
+
+p.des{
+	padding-top: 2px;
+}
+
+a.len:hover{
+	text-decoration: none;
+	color:#edc163;
+}
+
+div.desc{
+	padding-top: 5px;
+}
+
+div.desc>p{
+	margin-top: : 0;
+	margin-bottom: 30px;
+}
+
+hr.sep{
+	border: dotted;
+	border-width: 1pt;
+	color: #e0d2b1;
+}
+
+hr.hr{
+	width: 105%;
+	height: 0.5px;
+	color: black;
+	background-color: black;
+	border-color: black;
+	padding-left: 0px;
+	margin-left: -15px;
+}
+
+h3.h3{
+	margin: 0;
+}
+
+div.detail img.det{
+	width: 210px;
+	height: 230px;
+	padding-right:20px;
+
+}
